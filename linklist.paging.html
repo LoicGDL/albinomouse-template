@@ -2,7 +2,8 @@
 
 <div class="am-PagingFlex">
 
-    <div class="am-PagingFlex-item am-PagingFlex-item1">
+<!-- Liens spéciaux : affichage supprimé cousa doublon avec lien en-tête
+<div class="am-PagingFlex-item am-PagingFlex-item1">
         <a href="?" title="Linklist">linklist</a> {if="isLoggedIn()"}<a href="?privateonly">{if="$privateonly"}(all links){else}(private links){/if}</a>{/if} | <a href="?do=daily" title="Daily">daily</a> | <a href="?do=tagcloud" title="Tagcloud">tagcloud</a> | <a href="?do=picwall{$searchcrits}" title="Picwall">picwall</a> 
         <span class="am-action_plugin">
         {loop="$action_plugin"} 
@@ -17,6 +18,7 @@
         {/loop}
         </span>
     </div>
+-->    
 
     <div class="am-PagingFlex-item am-PagingFlex-item2">
         {if="$previous_page_url"} <a href="{$previous_page_url}" class="paging_older">&nbsp;<i class="glyphicon glyphicon-circle-arrow-left"></i>&nbsp;</a> {/if}
